@@ -10,10 +10,9 @@ const colors = {
   blue200: "#e3efff",
   blue100: "#f1f8ff",
 
-  green600: "#61A840",
-  green500: "#6CBB47",
-  green200: "#E2F1DA",
-  green100: "#F0F8ED",
+  navy600: "#114755",
+  navy500: "#114755",
+  navy200: "#c9e1e8",
 
   grey900: "#111010",
   grey800: "#3D3F42",
@@ -40,15 +39,9 @@ const colors = {
   pink200: "#FFFEFF",
   pink100: "#FFF4FF",
 
-  purple900: "#36254C",
-  purple800: "#5B3E80",
-  purple700: "#7f56b3",
-  purple600: "#A36FE6",
-  purple500: "#B57BFF",
-  purple400: "#C495FF",
-  purple300: "#D3B0FF",
-  purple200: "#F0E5FF",
-  purple100: "#F8F2FF",
+  red600: "#e8614d",
+  red500: "#EC7260",
+  red200: "#f8e3e0",
 
   teal600: "#51CAC6",
   teal500: "#60BFBC",
@@ -56,8 +49,9 @@ const colors = {
   teal100: "#E8F7F7",
 
   yellow100: "#F9C847",
-  yellow200: "#E0B944",
+  yellow200: "#f8e7c5",
   yellow300: "#E2AE27",
+  yellow500: "#E0B944",
 }
 
 export default colors

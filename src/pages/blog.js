@@ -31,7 +31,7 @@ const Blog = ({ posts, meta }) => (
   <>
     <Helmet
       title={`Blog`}
-      titleTemplate={`%s | ${meta.title}`}
+      titleTemplate={`${meta.title} | %s`}
       meta={[
         {
           name: `description`,
@@ -39,7 +39,7 @@ const Blog = ({ posts, meta }) => (
         },
         {
           property: `og:title`,
-          content: `Blog | ${meta.title}`,
+          content: `${meta.title} | Blog`,
         },
         {
           property: `og:description`,

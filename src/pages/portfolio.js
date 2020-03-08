@@ -14,7 +14,7 @@ const Portfolio = ({ projects, meta }) => (
   <>
     <Helmet
       title={`Portfolio`}
-      titleTemplate={`%s | ${meta.title}`}
+      titleTemplate={`${meta.title} | %s `}
       meta={[
         {
           name: `description`,
@@ -22,7 +22,7 @@ const Portfolio = ({ projects, meta }) => (
         },
         {
           property: `og:title`,
-          content: `Portfolio | ${meta.title}`,
+          content: `${meta.title} | Portfolio`,
         },
         {
           property: `og:description`,

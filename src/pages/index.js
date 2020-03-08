@@ -32,13 +32,13 @@ const Hero = styled("div")`
         color: ${colors.teal500};
       }
       &:nth-of-type(2) {
-        color: ${colors.orange500};
+        color: ${colors.yellow500};
       }
       &:nth-of-type(3) {
-        color: ${colors.purple500};
+        color: ${colors.red500};
       }
       &:nth-of-type(4) {
-        color: ${colors.green500};
+        color: ${colors.navy500};
       }
       &:nth-of-type(5) {
         color: ${colors.teal500};
@@ -49,20 +49,20 @@ const Hero = styled("div")`
         transition: all 100ms ease-in-out;
 
         &:nth-of-type(1) {
-          color: ${colors.blue600};
+          color: ${colors.teal500};
           background-color: ${colors.blue200};
         }
         &:nth-of-type(2) {
-          color: ${colors.orange600};
-          background-color: ${colors.orange200};
+          color: ${colors.yellow500};
+          background-color: ${colors.yellow200};
         }
         &:nth-of-type(3) {
-          color: ${colors.purple600};
-          background-color: ${colors.purple200};
+          color: ${colors.red600};
+          background-color: ${colors.red200};
         }
         &:nth-of-type(4) {
-          color: ${colors.green600};
-          background-color: ${colors.green200};
+          color: ${colors.navy600};
+          background-color: ${colors.navy200};
         }
         &:nth-of-type(5) {
           color: ${colors.teal600};
