@@ -33,11 +33,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `cayeborreo.com`,
-        short_name: `cayeborreo.com`,
+        name: `thepharmacist.codes`,
+        short_name: `thepharmacist.codes`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#51CAC6`,
+        theme_color: `#51CAC6`,
         display: `minimal-ui`,
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },

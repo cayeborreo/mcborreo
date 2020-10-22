@@ -1,5 +1,6 @@
 import css from '@emotion/css';
 import dimensions from "styles/dimensions";
+import colors from "styles/colors";
 
 const typeStyles = css`
     h1 {
@@ -45,6 +46,7 @@ const typeStyles = css`
     }
 
     a {
+        color: ${colors.teal600};
         &:hover {
             cursor: pointer;
         }
