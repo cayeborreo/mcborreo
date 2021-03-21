@@ -8,3 +8,4 @@
 // const { linkResolver } = require('./src/utils/prismic-configuration');
 
 // registerLinkResolver(linkResolver);
+import "@fontsource/inter"

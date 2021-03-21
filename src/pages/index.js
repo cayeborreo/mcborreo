@@ -233,7 +233,7 @@ export const query = graphql`
           }
         }
       }
-      allProjects {
+      allProjects(first: 1) {
         edges {
           node {
             project_title
