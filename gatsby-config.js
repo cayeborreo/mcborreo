@@ -14,6 +14,22 @@ module.exports = {
     `gatsby-plugin-resolve-src`,
     `gatsby-plugin-remove-trailing-slashes`,
     `gatsby-plugin-emotion`,
+    // {
+    //   resolve: `gatsby-plugin-csp`,
+    //   options: {
+    //     disableOnDev: false,
+    //     reportOnly: false, // Changes header to Content-Security-Policy-Report-Only for csp testing purposes
+    //     mergeScriptHashes: true, // you can disable scripts sha256 hashes
+    //     mergeStyleHashes: false, // you can disable styles sha256 hashes
+    //     mergeDefaultDirectives: true,
+    //     directives: {
+    //       "script-src": "'self' www.google-analytics.com",
+    //       "style-src": "'self' 'unsafe-inline'",
+    //       "img-src": "'self' data: www.google-analytics.com",
+    //       // you can add your directives or override defaults
+    //     },
+    //   },
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -33,11 +49,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `cayeborreo.com`,
-        short_name: `cayeborreo.com`,
+        name: `thepharmacist.codes`,
+        short_name: `thepharmacist.codes`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#51CAC6`,
+        theme_color: `#51CAC6`,
         display: `minimal-ui`,
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },

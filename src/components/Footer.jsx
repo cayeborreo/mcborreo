@@ -27,9 +27,9 @@ const Footer = () => (
   <FooterContainer>
     <Logo />
     <p>
-      © {new Date().getFullYear()} — Designed & developed by{" "}
-      <FooterAuthor href="https://marguerite.io">Marguerite Roth</FooterAuthor>{" "}
-      & <FooterAuthor href="https://cayeborreo.com">Caye Borreo</FooterAuthor>
+      © {new Date().getFullYear()} — Designed & developed<br />
+      by <FooterAuthor href="https://marguerite.io">Marguerite Roth</FooterAuthor>{" "}
+      & <FooterAuthor href="https://thepharmacist.codes">Caye Borreo</FooterAuthor>
     </p>
   </FooterContainer>
 )
