@@ -83,7 +83,7 @@ Portfolio.propTypes = {
 export const query = graphql`
   {
     prismic {
-      allProjects {
+      allProjects(sortBy: project_order_ASC) {
         edges {
           node {
             project_title

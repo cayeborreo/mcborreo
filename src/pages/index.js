@@ -167,7 +167,7 @@ const RenderBody = ({ home, projects, meta }) => (
         <Button>{RichText.render(home.hero_button_text)}</Button>
       </a>
     </Hero>
-    {/* <Section>
+    <Section>
       {projects.map((project, i) => (
         <ProjectCard
           key={i}
@@ -181,7 +181,7 @@ const RenderBody = ({ home, projects, meta }) => (
       <PortfolioAction to={"portfolio"}>
         See more work <span>&#8594;</span>
       </PortfolioAction>
-    </Section> */}
+    </Section>
     <Section>
       {RichText.render(home.about_title)}
       <About bio={home.about_bio} socialLinks={home.about_links} />
